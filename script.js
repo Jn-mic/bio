@@ -1,5 +1,5 @@
 var typeText = document.querySelector(".typeText")
-var textToBeTypedArr = ["Hi stranger!","I'm Peter Kennedy.", "Glad to have you here."]
+var textToBeTypedArr = ["Hi stranger!","I'm Peter Kennedy Ngugi.", "I love dogs.", "Glad to have you here.", "Unfortunately there's not much to see yet."]
 var index = 0,
       isAdding = true, textToBeTypedIndex = 0
 
@@ -18,7 +18,7 @@ function playAnim() {
                         setTimeout(function () {
                               typeText.classList.remove("showAnim")
                               playAnim()
-                        }, 1000)
+                        }, 3000)
                         return
                   } else {
                         // increment index by 1
@@ -37,7 +37,7 @@ function playAnim() {
             }
             // call itself
             playAnim()
-      }, isAdding ? 120 : 40)
+      }, isAdding ? 120 : 80)
 }
 // start animation
 playAnim()
