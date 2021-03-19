@@ -2,11 +2,12 @@ html {
       background-color: #0B0C10;
       height: 100%;
 }
-body{
+
+body {
       height: 100%;
 }
 
-#landing-page{
+#landing-page {
       display: flex;
       flex-direction: column;
       height: 100%;
@@ -24,22 +25,33 @@ body{
             cursive;
       display: flex;
       font-size: 70px;
-      line-height: 10px;
+      line-height: 60px;
       color: #66FCF1;
+      width: 90%;
+      flex-wrap: wrap;
 }
-.typeText::after{
+
+.typeText::after {
       content: "|";
       /* animation: blink 1s step-end infinite; */
       animation: none;
       color: #C5C6C7;
 }
-.showAnim.typeText::after{
+
+.showAnim.typeText::after {
       animation: blink 1s step-end infinite;
 }
 
-@keyframes blink{
-      0%, 100% {opacity: 1;}
-      50%{opacity: 0;}
+@keyframes blink {
+
+      0%,
+      100% {
+            opacity: 1;
+      }
+
+      50% {
+            opacity: 0;
+      }
 }
 
 #hi {
@@ -67,19 +79,23 @@ body{
       font-family: 'Open Sans',
             sans-serif;
 }
-.bio a{
+
+.bio a {
       color: #45A29E;
       text-decoration: none;
 }
+
 .bio a:visited {
       color: #45A29E;
       text-decoration: none;
 }
-.bio a:hover{
+
+.bio a:hover {
       color: #C5C6C7;
       text-decoration: none;
 }
-#nav-icon{
+
+#nav-icon {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -89,9 +105,35 @@ body{
       top: 50px;
       transition: 0.5s;
 }
-#nav-icon:hover{
+
+#nav-icon:hover {
       opacity: 0.5;
 }
-#nav-icon>div{
+
+#nav-icon>div {
       border-bottom: 2px solid #66FCF1;
+}
+
+#smicons {
+      color: #C5C6C7;
+      font-size: 30px;
+      margin-top: 50px;
+      border-top: 1px solid #45A29E;
+      width: fit-content;
+      padding-top: 20px;
+}
+
+#smicons i {
+      margin-right: 50px;
+}
+
+#smicons a {
+      color: #C5C6C7;
+      opacity: 0.5;
+      transition: 0.5s;
+}
+
+#smicons a :hover {
+      color: #45A29E;
+      opacity: 0.9;
 }
