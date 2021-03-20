@@ -33,8 +33,8 @@ body {
 }
 
 .typeText {
-      font-family: 'Baloo Tamma 2',
-            cursive;
+      font-family: 'Roboto',
+            sans-serif;
       display: flex;
       font-size: 70px;
       line-height: 60px;
