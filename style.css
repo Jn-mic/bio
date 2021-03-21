@@ -2,6 +2,7 @@ html {
       background-color: #0b0c10;
       height: 100%;
       position: relative;
+      overflow: hidden;
 }
 
 body {
@@ -83,7 +84,7 @@ body {
       font-size: 20px;
       font-family: 'Open Sans',
             sans-serif;
-      line-height: 5px;
+      line-height: auto;
 }
 
 .bio {
@@ -118,6 +119,7 @@ body {
       position: absolute;
       top: 50px;
       transition: 0.5s;
+      visibility: hidden;
 }
 
 #nav-icon:hover {
