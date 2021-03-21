@@ -1,7 +1,8 @@
 var typeText = document.querySelector(".typeText")
-var textToBeTypedArr = ["Hi stranger!","I'm Peter Kennedy Ngugi.", "I love dogs.", "Glad to have you here.", "Unfortunately there's not much to see yet."]
+var textToBeTypedArr = ["Hi stranger!", "I'm Peter Kennedy Ngugi.", "I love dogs.", "Glad to have you here.", "Unfortunately there's not much to see yet."]
 var index = 0,
-      isAdding = true, textToBeTypedIndex = 0
+      isAdding = true,
+            textToBeTypedIndex = 0
 
 function playAnim() {
       setTimeout(function () {
@@ -42,6 +43,6 @@ function playAnim() {
 // start animation
 playAnim()
 
-$(window).on("load", function(){
+$(window).on("load", function (event) {
       $(".loader-wrapper").fadeOut("slow");
 });
