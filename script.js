@@ -41,3 +41,7 @@ function playAnim() {
 }
 // start animation
 playAnim()
+
+$(window).on("load", function(){
+      $(".loader-wrapper").fadeOut("slow");
+});
