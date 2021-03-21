@@ -39,7 +39,7 @@ body {
       font-family: 'Roboto',
             sans-serif;
       display: flex;
-      font-size: 70px;
+      font-size: 50px;
       line-height: 60px;
       color: #66FCF1;
       width: 90%;
@@ -81,7 +81,7 @@ body {
 #titles {
       color: #45A29E;
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 17px;
       font-family: 'Open Sans',
             sans-serif;
       line-height: auto;
@@ -90,7 +90,7 @@ body {
 .bio {
       color: #C5C6C7;
       width: 60%;
-      font-size: 18px;
+      font-size: 14px;
       font-family: 'Open Sans',
             sans-serif;
 }
@@ -132,7 +132,7 @@ body {
 
 #smicons {
       color: #C5C6C7;
-      font-size: 30px;
+      font-size: 20px;
       margin-top: 50px;
       border-top: 1px solid #45A29E;
       width: fit-content;

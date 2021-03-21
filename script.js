@@ -45,4 +45,5 @@ playAnim()
 
 $(window).on("load", function (event) {
       $(".loader-wrapper").fadeOut("slow");
+      $("#landing-page").fadeIn("slower");
 });
